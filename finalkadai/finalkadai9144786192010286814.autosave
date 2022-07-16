@@ -2,7 +2,7 @@
 //2-1,3Dの図形を表示したりするのに配列とアニメーションを用いた。（配列とアニメーション）
 //2-2,時間ごとにアニメーションが変わるよう実装した（時間・展開）
 //2-3, アニメーションを実装する際に要素ごとの関数を作った。
-//参考資料　https://yoppa.org/proga10/1301.html 256行目~260（値は変えています） 242〜246　61~64（授業資料）
+//参考資料　https://yoppa.org/proga10/1301.html 256行目~260
 //https://processing.org/（processing公式）
 import ddf.minim.*;
 import ddf.minim.analysis.*;
@@ -42,6 +42,7 @@ float offset = PI / NUM;
 float i;
 float x1 = 0.1, y1 = 0.1;
 static final float a =  1.25, b = 0.75;
+
 
 void setup(){
   size(displayWidth , displayHeight, OPENGL);
